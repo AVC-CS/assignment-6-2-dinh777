@@ -87,6 +87,8 @@ result = getClosestMed(1, 2, 3);
 
 float finalDiff ; 
 
+
+// this entire block below is to find out which number is closest to mean based off of smallest differences 
     if (diff1 < diff2){
         finalDiff = diff1 ;
         result = rdnum1 ;
